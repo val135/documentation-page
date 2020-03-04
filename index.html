@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo sobre Medellín</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light bg-warning d-flex justify-content-between">
+      <a class="navbar-brand" href="http://viajecdotas.com/"><img src="images/logo-viajectdotas.png" alt="logo-viajecdotas"></a>      
+        <form class="form-inline col-2 my-2 my-md-0">
+          <input class="form-control" type="text" placeholder="Buscar">
+        </form>
+    </nav>
+  </header>
+
+    <!-- Debería haber un solo contenedor por página. Dentro de él insertamos el resto de Divs y otros elementos.
+    Container-fluid permite que el contenedor ocupe todo el ancho de pantalla -->
+    <main class="container-fluid">
+      <!-- Se crea un row. Una fila por cada bloque de elementos que desee tener -->
+      <div class="row">
+        <!-- La fila la divido en 2 secciones. Una sección que ocupa 2 columnas y es el aside -->
+          <aside class="col-2 col-sm-2 col-md-2 col-lg-2 pl-0 position-relative">
+            <nav class="bg-light border-right border-primary pt-2 pb-4 h-100 position-sticky col-12 col-sm-12 col-md-12 col-lg-12">
+            <a class="d-block text-decoration-none text-dark p-3 border-bottom" href=""><h2>Medellín</h2></a>
+            <a class="d-block text-decoration-none text-secondary p-4" href="#targethistorias">Historia</a>
+            <a class="d-block text-decoration-none text-secondary p-4" href="#targetgeografia">Geografía</a>
+            <a class="d-block text-decoration-none text-secondary p-4" href="#targetdemografia">Demografía</a>
+            <a class="d-block text-decoration-none text-secondary p-4" href="#targetadministracion">Administración</a>
+            <a class="d-block text-decoration-none text-secondary p-4" href="#targettransporte">Transporte</a>
+            <a class="d-block text-decoration-none text-secondary p-4" href=#targeturismo>Turismo</a>
+            </nav>
+          </aside> 
+
+          <!-- La otra sección ocupa el resto de las columnas, es decir, 10 columnas -->
+          <div class="col-10 p-5">
+            <section class="main-section" id="eterna_primavera">
+              <h2>La ciudad de la Eterna Primavera</h2>
+              <p>Medellín es un municipio colombiano, capital del departamento de Antioquia. Es la ciudad más poblada del departamento y la segunda más poblada del país. Se conoce como el Valle de Aburrá y se extiende a ambas orillas del río Medellín.
+              <p>La ciudad tiene más de 3 millones de habitantes. En 1826 fue designada capital de Antioquia, título que ostentaba Santa Fe de Antioquia desde la época colonial. Durante el siglo XIX, Medellín se desarrolló como un centro dinámico de comercio, primero exportando oro, y posteriormente mercancías provenientes de la industrialización de la ciudad.</p>
+            </section>
+            <br>
+            <section class="main-section" id="historia"><a name="targethistorias"></a>
+              <h2>Historia</h2>
+              <p>A continuación podrás conocer un poco de la historia de la ciudad de Medellín desde sus inicios</p>
+              <ul>
+                <li>Hace más de 1500 años el Valle de Aburrá era recorrido por tribus de cazadores y recolectores. Cuando llegaron los conquistadores españoles encontraron asentada una numerosa población nativa, que opuso poca resistencia.
+                  <li>Tenían grandes cultivos de maíz y fríjol, criaban curíes y perros mudos, tejían mantas de algodón, comerciaban con sal y conocían la orfebrería. Bajo el dominio español fueron repartidos en encomiendas y desplazados de sus tierras.</li></li>
+                <li>La deserción, el maltrato, las enfermedades y el duro trabajo intensivo en la tierra y las minas, en pocos años los diezmaron.</li>              
+                <li>El valle en donde hoy se asienta Medellín fue descubierto el 24 de agosto de 1541, día de San Bartolomé, por Jerónimo Luis Tejelo</li>
+                <li>El valle era llamado Valle de Aburrá por los indígenas que lo habitaban y fue llamado por los españoles Valle de San Bartolomé o de Los Alcázares.</li>
+              </ul>
+              
+            </section>
+            <br>
+            <section class="main-section" id="geografia">
+              <h2>Geografía</h2>
+              <p>Medellín se encuentra ubicada en el centro geográfico del Valle de Aburrá, sobre la cordillera central de los Andes.
+                Su conformación es el resultado de la unidad geográfica determinada por la cuenca del río Medellín y por una serie de afluentes que caen a lo largo de su recorrido. El Valle tiene una longitud aproximada de 60 kilómetros y una amplitud variable. Está enmarcado por una topografía irregular y pendiente, que oscila entre 1.300 y 2.800 metros sobre el nivel del mar.</p>
+                <p>Las cordilleras que lo encierran dan lugar a la formación de diversos microclimas, saltos de agua, bosques y sitios de diverso valor paisajístico y ecológico. El valle tiene una forma alargada y presenta un ensanchamiento en su parte media, el cual mide 10 kilómetros y es donde se localiza Medellín.33​ El Valle de Aburrá está totalmente urbanizado en su parte plana, y muy ocupado en sus laderas.</p>
+            </section>
+            <br>
+            <section class="main-section" id="demografia">
+              <h2>Demografía</h2>
+              <p>Medellín no escapa a la tendencia colombiana de crecimiento de las áreas urbanas en detrimento de la población rural, este proceso de urbanización acelerado no se debe exclusivamente a la industrialización, ya que existen unas complejas razones políticas y sociales como la pobreza y la violencia, las cuales han motivado la migración del campo a la ciudad a lo largo del siglo XX, generando un crecimiento exponencial de la población en las zonas urbanas. Hoy en día el 58 por ciento de la población de Antioquia habita en el área metropolitana. El 67 por ciento de los habitantes de dicha área, corresponden a Medellín, de los cuales el 61,3 por ciento nacieron en la ciudad, el 38,4 por ciento en otro municipio y el 0,3 por ciento son de otro país. </p>
+            </section>
+            <br>
+            <section class="main-section" id="administracion">
+              <h2>Administración</h2>
+              <p>Medellín está regido por un sistema democrático basado en los procesos de descentralización administrativa generados a partir de la proclamación de la Constitución Política de Colombia de 1991. A la ciudad la gobierna un alcalde (poder ejecutivo) y un Concejo Municipal (poder legislativo).
+                El alcalde de Medellín es el jefe de gobierno y de la administración municipal, representando legal, judicial y extrajudicialmente al municipio. Es un cargo elegido por voto popular para un periodo de cuatro años. Entre sus funciones principales está la administración de los recursos propios de la municipalidad, velar por el bienestar y los intereses de sus conciudadanos y representarlos ante el Gobierno Nacional, además de impulsar políticas locales para mejorar su calidad de vida, tales como programas de salud, vivienda, educación e infraestructura vial y mantener el orden público. 
+                </p>
+            </section>
+            <br>
+            <section class="main-section" id="transporte"><a name="targettransporte"></a>
+              <h2>Transporte</h2>
+              <p>La principal puerta de acceso a Medellín para viajeros internacionales y nacionales es el Aeropuerto Internacional José María Córdova, ubicado en jurisdicción del municipio de Rionegro, a 35 kilómetros de la ciudad en dirección oriente. Fue inaugurado en 1985 y posteriormente amplió su muelle nacional con la construcción de 4.200 metros cuadrados nuevos de área Dentro del perímetro urbano del municipio de Medellín, al suroccidente, está ubicado el Aeropuerto Olaya Herrera, que presta servicios de vuelos nacionales y regionales (departamentales).</p>
+              <p>Es el primer sistema de transporte masivo que se construyó en Colombia. Inició operaciones el 30 de noviembre de 1995 y desde entonces ha movilizado a más de mil millones de pasajeros.101​ El metro atraviesa el área metropolitana de sur a norte, entre los municipios de Bello y La Estrella; también se extiende desde el centro de la ciudad hacia el oeste. El Metro combina un sistema férreo con un sistema de cable aéreo denominado metrocable (no confundir con el sistema teleférico, aunque son similares), el cual ha sido usado por primera vez en el mundo en Medellín como transporte masivo permanente. El Metro cuenta con varios tipos de niveles (nivel de tierra, viaductos elevados y cables aéreos), y no tiene tramos subterráneos. La Red del Metro posee una longitud de 33 km y comprende 5 líneas: Línea A (férrea) con 19 estaciones, Línea B (férrea) con 7 estaciones, la línea C (férrea) con 11 estaciones, la línea L (cable) que comunica el área metropolitana con el parque natural de Arví desde la estación Santo Domingo Sabio hasta el corregimiento de Santa Elena, la Línea K y la Línea J cuenta cada una con 3 estaciones (estas tres últimas son del sistema cable aéreo).</p>
+            </section>
+            <br>
+            <section class="main-section" id="turismo"><a name="targetturismo"></a>
+              <h2>Transporte</h2>
+              <p>Entre los principales destinos se destacan el Museo de Antioquia, la Plaza de Botero, el Pueblito Paisa, el Centro Internacional de Convenciones y Exposiciones Plaza Mayor, el Pasaje Peatonal Carabobo, el Parque de los Pies Descalzos, la Catedral Metropolitana, la Basílica Nuestra Señora de la Candelaria, el Teatro Pablo Tobón Uribe, el Teatro Metropolitano, el Centro Comercial Oviedo, el Parque Explora, el Jardín Botánico, el Parque Lleras y más recientemente, la Comuna 13.</p>
+              <p>Con respecto a sitios naturales, los más concurridos son el Cerro El Volador y el Cerro Nutibara. Un nuevo espacio natural inaugurado hace pocos años es el Parque Regional Arví, el cual cuenta con un área cercana a las 20.000 hectáreas, comprende prácticamente todo el territorio del corregimiento de Santa Elena y se extiende entre los municipios de Bello, Copacabana, Guarne y Envigado.</p>
+              <p>Por su parte, en diciembre, la ciudad se cubre de miles de bombillas de colores, creando el famoso alumbrado navideño, considerado por la National Geographic como uno de los diez más bellos del mundo y que puede apreciarse principalmente en el Parque Norte, cerca del Jardín Botanico, en la avenida la Playa y en el Parque del río Medellín, entre la Calle Avenida 33 y la Avenida San Juan.</p>
+            </section>
+
+            
+          </div>
+      </div>
+      <!-- Aqui termina el row -->
+    </main>
+    <!-- Aqui termina el container -->
+    
+</body>
+</html>
